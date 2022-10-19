@@ -1,0 +1,53 @@
+.content
+{
+    padding-left: 50px;
+    padding-top: 15px;
+}
+tr td span
+{
+    color:#b30000 ;
+    font-weight: bold;
+}
+
+table,th,tr,td
+{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px  15px;
+}
+th
+{
+    background-color: #34495e;
+    font-size: 20px;
+    color: white;
+}
+td
+{
+    padding-left: 25px;
+}
+caption
+{
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.etable
+{
+    padding-left: 110px;
+}
+h2
+{
+    padding-top: 20px;
+}
+li
+{
+    font-size: 18px;
+}
+p
+{
+    font-size: 18px;
+}
+i
+{
+color: #b30000;
+}
