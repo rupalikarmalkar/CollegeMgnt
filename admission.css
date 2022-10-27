@@ -22,7 +22,7 @@
      background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center;
-    /* filter: brightness(1.5) contrast(1.5);  */
+     /* filter: brightness(1.0) contrast(1.5);  */
     /* background-color: #34495e; */
     padding-left: 10px;
     width: 100%;
@@ -460,8 +460,9 @@ iframe
 }
 .middle3 ul
 {
-    margin-bottom: 40px;
-    margin-left: 50px;
+ margin-bottom: 40px; 
+     margin-left: 50px;
+    
 }
 
 .piller
@@ -469,4 +470,54 @@ iframe
     width: 100%;
      height: 700px; 
     /* border: 10px solid black; */
+}
+.foo
+{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 30%;
+    position: relative; 
+    bottom: 1100px;
+    background-image: url(resources/spot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    filter: brightness(0.8);
+}
+.foo footer ul
+{
+   list-style-type: none; 
+   /* left: float; */
+   font-size: 40px;
+   color: white;
+}
+.foo footer ul
+{
+     padding-top: 50px; 
+     margin-left:550px;
+     text-shadow: 4px 2px 5px black;
+}
+.foo footer li 
+{
+display: inline-block;
+padding-left: 15px;
+font-size: 50px;
+
+}
+.foo footer li a
+{
+    color: white;
+   
+}
+.foo  footer ul  li a:hover
+{
+    color:blue;
+}
+.foo footer ul li  #one  a:hover
+{
+    color:purple;
+}
+
+.foo footer ul li  #red a:hover
+{
+    color:red;
 }
